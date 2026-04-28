@@ -1,0 +1,31 @@
+QWidget {
+    background-color: #f4f6f9;
+    color: #2c3e50;
+    font-family: Segoe UI;
+}
+
+QTableWidget {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+QHeaderView::section {
+    background-color: #3498db;
+    color: white;
+}
+
+QPushButton {
+    background-color: #6c5ce7;
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+QPushButton#edit {
+    background-color: #00b894;
+}
+
+QPushButton#hapus {
+    background-color: #e74c3c;
+}
